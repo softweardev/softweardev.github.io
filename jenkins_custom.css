@@ -8,5 +8,6 @@ body, table, form, input, td, th, p, textarea, select {
   background-image: url(https://www.softwear.nl/images/softwear_s_medium.png) !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left bottom
+  background-position: left bottom;
+  background-size: 200px 200px;
 }
