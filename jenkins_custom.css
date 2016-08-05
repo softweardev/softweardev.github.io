@@ -48,3 +48,100 @@ body, table, form, input, td, th, p, textarea, select {
 .build-monitor .disabled   {
   background-color: rgb(157,157,157) !important;
 }
+
+@-webkit-keyframes forUnknown {
+  0% {
+    background-color: #9d9d9d;
+  }
+  100% {
+    background-color: lightgrey;
+  }
+}
+@-moz-keyframes forUnknown {
+  0% {
+    background-color: #9d9d9d;
+  }
+  100% {
+    background-color: lightgrey;
+  }
+}
+@keyframes forUnknown {
+  0% {
+    background-color: #9d9d9d;
+  }
+  100% {
+    background-color: lightgrey;
+  }
+}
+@-webkit-keyframes forSuccessful {
+  0% {
+    background-color: rgb(71, 187, 111) !important;
+  }
+  100% {
+    background-color: rgb(127,208,155) !important;
+  }
+}
+@-moz-keyframes forSuccessful {
+  0% {
+    background-color: rgb(71, 187, 111) !important;
+  }
+  100% {
+    background-color: rgb(127,208,155) !important;
+  }
+}
+@keyframes forSuccessful {
+  0% {
+    background-color: rgb(71, 187, 111) !important;
+  }
+  100% {
+    background-color: rgb(127,208,155) !important;
+  }
+}
+@-webkit-keyframes forUnstable {
+  0% {
+    background-color: rgb(209, 205, 90) !important;
+  }
+  100% {
+    background-color: rgb(226,223,150) !important;
+  }
+}
+@-moz-keyframes forUnstable {
+  0% {
+    background-color: rgb(209, 205, 90) !important;
+  }
+  100% {
+    background-color: rgb(226,223,150) !important;
+  }
+}
+@keyframes forUnstable {
+  0% {
+    background-color: rgb(209, 205, 90) !important;
+  }
+  100% {
+    background-color: rgb(226,223,150) !important;
+  }
+}
+@-webkit-keyframes forFailing {
+  0% {
+    background-color: rgb(210, 103, 113) !important;
+  }
+  100% {
+    background-color: rgb(227,162,168) !important;
+  }
+}
+@-moz-keyframes forFailing {
+  0% {
+    background-color: rgb(210, 103, 113) !important;
+  }
+  100% {
+    background-color: rgb(227,162,168) !important;
+  }
+}
+@keyframes forFailing {
+  0% {
+    background-color: rgb(210, 103, 113) !important;
+  }
+  100% {
+    background-color: rgb(227,162,168) !important;
+  }
+}
