@@ -14,8 +14,10 @@ body, table, form, input, td, th, p, textarea, select {
   background-size: 300px 300px;
 }
 
+/* Build Monitor Plugin style overrides */
+
 .dashboard {
-  background: rgb(211,211,211) !important;
+  background: rgb(34,34,34) !important;
 }
 
 .build-monitor .project.unknown > .progress {
@@ -31,8 +33,18 @@ body, table, form, input, td, th, p, textarea, select {
   background-color: rgb(210, 103, 113) !important;
 }
 
-.build-monitor .unknown    { background-color: rgb(211,211,211) !important; }
-.build-monitor .successful {background-color: rgb(71, 187, 111) !important;}
-.build-monitor .unstable   { background-color: rgb(209, 205, 90) !important; }
-.build-monitor .failing    { background-color: rgb(210, 103, 113); }
-.build-monitor .disabled   { background-color: rgb(157,157,157) !important; }
+.build-monitor .unknown    {
+  background-color: rgb(211,211,211) !important;
+}
+.build-monitor .successful {
+  background-color: rgb(71, 187, 111) !important;
+}
+.build-monitor .unstable   {
+  background-color: rgb(209, 205, 90) !important;
+}
+.build-monitor .failing    {
+  background-color: rgb(210, 103, 113) !important;
+}
+.build-monitor .disabled   {
+  background-color: rgb(157,157,157) !important;
+}
