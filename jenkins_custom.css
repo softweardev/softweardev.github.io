@@ -17,7 +17,7 @@ body, table, form, input, td, th, p, textarea, select {
 /* Build Monitor Plugin style overrides */
 
 .dashboard {
-  background: rgb(34,34,34) !important;
+  background: rgb(195,195,195) !important;
 }
 
 .build-monitor .project.unknown > .progress {
