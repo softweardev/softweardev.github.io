@@ -30,3 +30,9 @@ body, table, form, input, td, th, p, textarea, select {
 .build-monitor .project.failing > .progress {
   background-color: rgb(210, 103, 113) !important;
 }
+
+.build-monitor .unknown    { background-color: rgb(211,211,211) !important; }
+.build-monitor .successful {background-color: rgb(71, 187, 111) !important;}
+.build-monitor .unstable   { background-color: rgb(209, 205, 90) !important; }
+.build-monitor .failing    { background-color: rgb(210, 103, 113); }
+.build-monitor .disabled   { background-color: rgb(157,157,157) !important; }
