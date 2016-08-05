@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body, table, form, input, td, th, p, textarea, select {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif !important;
 }
 
 #main-panel {
@@ -12,4 +12,21 @@ body, table, form, input, td, th, p, textarea, select {
   background-attachment: fixed;
   background-position: left bottom;
   background-size: 300px 300px;
+}
+
+.dashboard {
+  background: rgb(211,211,211) !important;
+}
+
+.build-monitor .project.unknown > .progress {
+  background-color: rgb(157,157,157) !important;
+}
+.build-monitor .project.successful > .progress {
+  background-color: rgb(71, 187, 111) !important;
+}
+.build-monitor .project.unstable > .progress {
+  background-color: rgb(209, 205, 90) !important;
+}
+.build-monitor .project.failing > .progress {
+  background-color: rgb(210, 103, 113) !important;
 }
