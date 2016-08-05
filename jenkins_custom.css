@@ -5,7 +5,7 @@
 /* Build Monitor Plugin style overrides */
 
 .dashboard {
-  background: rgb(195,195,195) !important;
+  background: rgb(233,233,233) !important;
 }
 
 .build-monitor .project.unknown > .progress {
